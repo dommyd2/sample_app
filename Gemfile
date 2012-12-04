@@ -7,7 +7,9 @@ gem 'rails', '3.2.3'
 
 group :development do
  gem 'sqlite3', '1.3.5'
- gem 'rspec-rails','2.12.0'
+ gem 'rspec-rails','2.12.0' 
+ gem 'capybara', '1.1.2'
+ gem 'webrat'
 end 
 
 
@@ -22,7 +24,10 @@ end
 gem 'jquery-rails', '2.1.4'
 
 group :test do
- gem 'capybara', '2.0.1'
+ gem 'sqlite3', '1.3.5'
+ gem 'rspec-rails','2.12.0' 
+ gem 'capybara', '1.1.2'
+ gem 'webrat'
 end 
 
 group :production do
@@ -43,3 +48,4 @@ end
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
